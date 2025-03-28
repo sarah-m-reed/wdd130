@@ -22,6 +22,16 @@ header img{
     height: auto;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    flex: 1 1 auto;
+    
+}
+
 body {
     text-align: center;
 }
