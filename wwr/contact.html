@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarah Reed | Contact Us - Whitewater Rafting Co.</title>
+    <meta name="author" content="Sarah Reed">
+    <meta name="description" content="Contact Us page for the whitewater rafting site">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <header>
+        <img src="images/rafting-site-logo.webp" alt="Whitewater Rafting Site Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <section class="company-info">
+            <h2>Company Information</h2>
+            <p id="p1">Address: Lorem, ipsum dolor.</p>
+            <p id="p2">Phone Number: 123-456-7890</p>
+            <p id="p3">Email: lorem@ipsum.com</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d9332.183267591145!2d-84.10007612599041!3d10.445385055993723!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1743750806171!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+       <section id="gallery" class="employees">
+        <h2>Our Employees</h2>
+        <figure>
+            <img src="images/employee-1.webp" alt="Happy Female employee smiling and holding rafting equipment">
+            <figcaption>Rafting Guide</figcaption>
+        </figure>
+        <figure>
+            <img src="images/employee-2.webp" alt="Happy male employee rafting">
+            <figcaption>Rafting Guide</figcaption>
+        </figure>
+        <figure>
+            <img src="images/employee-3.webp" alt="Male employee focused while rafting">
+            <figcaption>Rafting Guide</figcaption>
+        </figure>
+    </section>
+        <form>
+            <fieldset>
+                <legend>Contact Us</legend>
+                <div class="form-item column2">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <div class="form-item column2">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Your Message</legend>
+                <div class="form-item column1 purpose">
+                    <label for="purpose">What is the purpose of your message?</label>
+                    <p><input type="radio" id="purpose" name="purpose">General Inquiry</p>
+                    <p><input type="radio" id="purpose" name="purpose">Reservation Question</p>
+                    <p><input type="radio" id="purpose" name="purpose">Website Suggestion</p>
+                </div>
+                <div class="message">
+                    <label for="message">Your message:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Please type your message here"></textarea>
+                </div>  
+                <div class="form-item column1 newsletter">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                </div>
+            </fieldset>    
+            <button type="submit">Submit Form</button>
+        </form>
+    </main>
+    <footer>
+        <p>©️2025 🌊 Whitewater Rafting Co. 🌊 Sarah Reed</p>
+        <a href="images/contact-us-wireframe.webp" target="_blank">Contact Us Wireframe</a></li>
+        <a href="https://www.facebook.com/"><img src="images/facebook_icon.webp" alt="facebook"></a>
+        <a href="https://www.instagram.com/"><img src="images/instagram_icon.webp" alt="Instagram"></a>
+        <a href="https://www.youtube.com/"><img src="images/youtube_icon.webp" alt="Youtube"></a>
+    </footer>
+</body>
+</html>
