@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Condiment&family=Luxurious+Roman&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Luxurious Roman', Condiment, sans-serif;
+    font-size: 1.2em;
+    color: rgb(52, 48, 48);
+    background-color: white;
+}
+
+header {
+    margin: 0;
+    width: auto
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: rgb(36, 36, 112);
+    text-align: center;
+}
+
+form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0, 0, 0 / 0.1) ;
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0, 0, 0 / 0.2);
+    padding: 1rem;
+}
+
+legend {
+    color: rgb(36, 36, 112);
+    font-size: 1.25rem;
+    padding: 0.5rem;
+}
+
+label, input, button, select, textarea {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+button {
+    background-color: lightblue;
+    margin: 1rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: skyblue;
+}
+
+footer {
+    margin: 1rem auto;
+    width: auto;
+    text-align: center;
+    font-size: 1rem;
+    color: #ccc7c7;
+    border-top: 1px solid #ccc7c7;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 1fr 2fr;
+    margin: 5px;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 5px;
+}
