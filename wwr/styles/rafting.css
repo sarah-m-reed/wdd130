@@ -438,7 +438,7 @@ th, td {
 }
   
 th {
-    font-size: bold; 
+    font-size: 15px; 
 }
 
 td:last-of-type {
